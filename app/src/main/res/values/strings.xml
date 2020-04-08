@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PalmFoldV2</string>
+
+    <string name="direct_touch">Direct Touch</string>
+    <string name="direct_touch_test">Hold the phone in your normal grip.</string>
+    <string name="direct_touch_test_instructions">Touch all targets within comfortable reach.</string>
+    <string name="dominant_hand_information">Tap image to change hand</string>
+
+
+    <string name="one_handed_title">One-Handed</string>
+    <string name="one_handed_test">Hold the phone in your normal grip.</string>
+    <string name="one_handed_test_instructions">Touch all targets within comfortable reach.</string>
+
+    <string name="palm_touch">Palm Touch</string>
+    <string name="palm_touch_test">Hold the phone in your normal grip.</string>
+    <string name="palm_touch_test_instructions">Use your palm to touch the screen and bring out of reach targets closer.</string>
+
+    <string name="test_results_title">Results</string>
+    <string name="test_results_information">Percentage of targets selected.</string>
+
+
+    <string name="calibration_title">Calibration</string>
+    <string name="calibration_information">Touch the screen with your palm 10 times.</string>
+
+</resources>

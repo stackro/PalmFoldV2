@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFold"
+    android:background="@color/home_bg"
+    android:id="@+id/entire_view">
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/remaining_icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnWidth="50dp"
+        android:numColumns="4"
+        android:paddingTop="15dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/right_fold"
+        android:layout_width="400dp"
+        android:layout_height="460dp"
+        android:background="@drawable/test_right_fold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintVertical_bias="0.10" />
+
+    <ImageView
+        android:id="@+id/left_fold"
+        android:layout_width="600dp"
+        android:layout_height="500dp"
+        android:background="@drawable/purple_fold_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintVertical_bias="0.10" />
+
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/home_icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnWidth="50dp"
+        android:numColumns="4"
+        android:paddingTop="15dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+
+        />
+
+
+
+
+
+</RelativeLayout>

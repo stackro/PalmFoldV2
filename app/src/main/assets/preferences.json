@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "dominant": "left",
+      "palm": "1.00",
+      "finger": "0.00",
+      "reachable": "max",
+
+      "one-handed": "10",
+      "palm": "10"
+
+    },
+    {
+      "id": 2,
+      "dominant": "right",
+      "palm": 1.00,
+      "finger": 0.00,
+      "reachable": "min"
+    },
+
+    {
+      "id": 3,
+      "dominant": "right",
+      "palm": 1.00,
+      "finger": 0.00,
+      "reachable": "min"
+    }
+  ]
+}

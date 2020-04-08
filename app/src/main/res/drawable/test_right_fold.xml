@@ -1,0 +1,35 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:height="100dp"
+            android:width="100dp"
+            android:viewportHeight="100"
+            android:viewportWidth="100" >
+            <group
+                android:name="triangleGroup">
+                <path
+                    android:name="triangle"
+                    android:fillColor="#CCFFFFFF"
+                    android:strokeColor="#009999" android:strokeWidth="1"
+
+                    android:pathData="M100,0 L75,25 L100,25 z" />
+                <path
+                    android:name="triangle"
+                    android:fillColor="#FFFFFF"
+                    android:strokeColor="#009999" android:strokeWidth="0.75"
+
+                    android:pathData="M20,20 L100,20 L20,100 z" />
+                <path
+                    android:name="triangle"
+                    android:fillColor="#CCFFFFFF"
+                    android:strokeColor="#009999" android:strokeWidth="1"
+
+                    android:pathData="M20,75 L0,100 L20,100 z" />
+            </group>
+        </vector>
+    </item>
+
+
+</layer-list>

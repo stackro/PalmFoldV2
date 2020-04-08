@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/calibration_title"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/calibration_title"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="32sp"
+        android:textColor="@color/textColour"/>
+
+    <TextView
+        android:id="@+id/calibration_information"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/calibration_information"
+        android:padding="20dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toBottomOf="@+id/test_results_title"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/touches"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/calibration_information" />
+
+    <ImageView
+        android:id="@+id/calibration_complete"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/tick"
+        app:layout_constraintTop_toBottomOf="@+id/calibration_information"
+        android:layout_gravity="center"
+         />
+
+    <Button
+        android:id="@+id/return_home"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:background="@drawable/launch_direct_test"
+        app:layout_constraintTop_toBottomOf="@+id/palm_touch"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+
+        />
+
+
+</LinearLayout>
